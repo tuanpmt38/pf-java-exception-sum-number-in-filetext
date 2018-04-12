@@ -23,6 +23,7 @@ public class ReadFileExample {
             }
             bufferedReader.close();
             // hiển thị ra màn hình tổng các số nguyên trong file
+            System.out.println("Sum: " +sum);
         } catch (Exception e) {
             // TH file không tồn tại hoặc nội dung file có lỗi thì sẽ hiển thị thông báo lỗi.
             System.err.println("Fie không tồn tại or nội dung có lỗi!");
